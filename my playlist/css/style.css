@@ -1,0 +1,59 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: red;
+}
+
+.logo-header {
+    background-color: white;
+    display: flex;
+}
+
+#logo{
+    width: 10%;
+    display: block;
+}
+
+.flag {
+    display: flex;
+    margin-left: 20x;
+    width: 88%;
+    height: 55%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.green {
+    background-color: green;
+    width: 85%;
+}
+
+.white {
+    background-color: white;
+    width: 85%;
+}
+
+.red {
+    background-color: red;
+    width: 85%;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: large;
+}
+
+article {
+    width: 45%;
+}
+
+footer {
+    background-color: white;
+}
