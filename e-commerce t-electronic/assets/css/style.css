@@ -152,6 +152,7 @@ nav i {
   font-weight: bold;
   background-color: #022335;
   font-size: large;
+  margin-bottom: 2%;
 }
 
 .add-to-basket:hover {
@@ -252,11 +253,23 @@ menu a {
 .grid .right-column h1 {
   margin: 0;
   margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 .grid .right-column {
   width: 400px;
   padding-left: 15px;
+}
+
+.right-column .add-to-basket{
+  margin-left: 60%;
+  margin-top: 2%;
+
+}
+.right-column .product-price{
+  margin-left: 72%;
+  font-weight: bold;
+
 }
 
 /*@media only screen and (min-width: 1366px)
