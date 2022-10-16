@@ -28,7 +28,7 @@
         </header>
 
         <article class="pizza-article container pizza-size pizza-checkout" id="checkout">
-            <form class="pizza-size pizza-checkout" id="checkout-form" action="checkout.html">
+            <form class="pizza-size pizza-checkout" id="checkout-form" >
                 <div class="checkout">
                     <div class="knowledge">
                       <h3 class="personal">Kişi Bilgileri</h3>
@@ -87,19 +87,19 @@
                       <h4 class="card">Kart Bilgileri:</h4>
                       <div class="input-area">
                         <label class="input-label" for="cardNumber">Kart Numarası:</label>
-                        <input type="text" min="16" pattern="[0-9]{16,16}" id="cardNumber" required><br>
+                        <input type="text" min="16" max="16" pattern="[0-9]{16,16}" id="cardNumber" required>
                       </div>
                       <div class="input-area">
                         <label class="input-label" for="cardHolderName">Kart Sahibi:</label>
-                        <input type="text" id="cardHolderName" placeholder="Kart üzerindeki tam isim" required><br>
+                        <input type="text" id="cardHolderName" min="5" max="50" placeholder="Kart üzerindeki tam isim" required><br>
                       </div>
                       <div class="input-area">
                         <label class="input-label" for="expDate">Son kullanma tarihi:</label>
-                        <input type="month" id="expDate" min="2022-10" required><br>
+                        <input type="month" id="expDate" min="2022-10" required>
                       </div>
                       <div class="input-area">
                         <label class="input-label" for="cvv">CVV:</label>
-                        <input type="text" id="cvv" pattern="[0-9]{3,3}" required><br>
+                        <input type="text" id="cvv" min="3" max="3" pattern="[0-9]{3,3}" required>
                       </div>
           
                     </div>

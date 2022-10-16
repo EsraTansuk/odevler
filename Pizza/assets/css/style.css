@@ -211,6 +211,10 @@ header p {
 
 /*checkout success*/
 
+.pizza-size input[class="input-checkbox"]{
+  width: 100%;
+} /*olmuyorrrr*/
+
 #checkout {
   text-align: left;
   padding-left: 4%;
@@ -303,7 +307,7 @@ header p {
   border-radius: 5px;
   cursor: pointer;
   margin: 0;
-  width: 48%;
+  width: 50%;
   padding: 0.5%;
   text-align: center;
   background-color: #618c03;
