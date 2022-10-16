@@ -104,6 +104,11 @@ header p {
   padding-bottom: 5%;
 }
 
+#register{
+  text-align: left;
+  padding-left: 5%;
+}
+
 /*LOGIN*/
 
 #username {
@@ -212,6 +217,35 @@ header p {
   padding-bottom: 4%;
 }
 
+  .pizza-size .pay input[type="radio"],
+  .pizza-size .pay input[type="radio"] {
+    display: none;
+  }
+
+  .pizza-size .pay label,
+  .pizza-size .pay label {
+    border: 2px solid #618c03;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    width: 30%;
+    padding: 0.5%;
+    text-align: center;
+    background-color: #fff1e5;
+  }
+
+  .pay input[type="radio"]:checked + label {
+    border: 2px solid #fff1e5;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    width: 30%;
+    padding: 0.5%;
+    text-align: center;
+    background-color: #618c03;
+  }
+
+
 .submit-button {
   width: 30%;
   height: 25%;
@@ -236,6 +270,10 @@ header p {
   margin-top: 3%;
 }
 
+#cvv {
+  margin-bottom: 3%;
+}
+
 /*delivery-date pizza-topping*/
 .delivery-date {
   font-size: larger;
@@ -243,10 +281,10 @@ header p {
   padding-left: 5%;
 }
 
-.pizza-size input[type="checkbox"],
 .pizza-size input[type="checkbox"] {
   display: none;
 }
+
 
 .pizza-size label,
 .pizza-size label {
@@ -254,7 +292,7 @@ header p {
   border-radius: 5px;
   cursor: pointer;
   margin: 0;
-  width: 30%;
+  width: 50%;
   padding: 0.5%;
   text-align: center;
   background-color: #fff1e5;
@@ -265,7 +303,7 @@ header p {
   border-radius: 5px;
   cursor: pointer;
   margin: 0;
-  width: 30%;
+  width: 48%;
   padding: 0.5%;
   text-align: center;
   background-color: #618c03;
